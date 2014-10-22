@@ -142,7 +142,7 @@ if(Meteor.user()){
 因为，如果我们不这样做，甚至注销用户都能看到“添加球员”的形式。如果用户没有登录，我们可以
 禁用这个表单的功能，如果我们这样做，那表单就不会出现，这很简单。
 
-要做到这一点，写了下面的条件里面我们的“addPlayerForm”template： 
+要做到这一点，在我们的“addPlayerForm”template里面写上下面的条件： 
 
 {{#if currentUser}} 
    <p>You're logged in.</p>
